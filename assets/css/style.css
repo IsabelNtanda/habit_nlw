@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+font-size: 62.5%;
+}
+body {
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+  font-size: 1.6rem;
+  
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem;
+}
+button {
+  padding: 1.6rem 2.4rem;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  font-size: 1.6rem;
+}
+
+input{
+width: 6.4rem;
+height: 6.4rem;
+}
