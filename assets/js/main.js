@@ -7,3 +7,4 @@ const data = {
   food: ["01-01", "01-03"],
 }
 nlwSetup.setData(data)
+nlwSetup.load()
