@@ -17,7 +17,7 @@ alert('Dia adicionado com sucesso ✅ ')
 nlwSetup.addDay(today)
 }
 function save() {
-  
+localStorage.setItem('NLWSetup@habit', JSON.stringify(nlwSetup.data))
 }
 
 const data = {
